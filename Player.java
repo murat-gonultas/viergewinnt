@@ -45,16 +45,21 @@ public class Player {
 		return result;
 	}
 
-	public Player chancePlayer(Player pl, Player pl1, Player pl2){
+	public static Player chancePlayer(Player curr, Player pl1, Player pl2){
 
-		if(pl == pl1){
-			pl = pl2;
+		if(curr == pl1){
+			return pl2;
 		}
-		else {
-			pl = pl1;
-		}
-		return pl;
+		return pl1;
 
+	}
+
+	public static Player randomPlayer(Player pl1, Player pl2){ //TODO: i will add a random game option.
+
+		if(Player.randomPlayer() == 1)
+			return pl1;
+
+		return pl2;
 	}
 
 
