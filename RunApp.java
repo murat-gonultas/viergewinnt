@@ -41,11 +41,9 @@ public class RunApp {
 			gameArea.getArea();
 			player = Player.chancePlayer(player, player1, player2);
 			gameArea.setChips(player);
-			//WinnerControl.horizontallyControl();
-			//WinnerControl.verticallyControl();
-			//WinnerControl.diagonallyControl();
-			//WinnerControl.totalWinControl();
 		}
+		gameArea.getArea();
+		System.out.println(player.getName() + " is winner!!!");
 
 
 
