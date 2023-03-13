@@ -20,7 +20,7 @@ public class WinnerControl {
 					if (area[row][col] == area[row + 1][col] &&
 							area[row + 1][col] == area[row + 2][col] &&
 							area[row + 2][col] == area[row + 3][col]) {
-						System.out.println("we have a winner:");
+						//System.out.println("we have a winner:");
 						return true;
 					}
 				//System.out.println("kontrol1");
@@ -38,7 +38,7 @@ public class WinnerControl {
 					if (area[row][col] == area[row][col + 1] &&
 						area[row][col + 1] == area[row][col + 2] &&
 						area[row][col + 2] == area[row][col + 3]) {
-					System.out.println("we have a winner");
+					//System.out.println("we have a winner");
 					return true;
 					}
 				//System.out.println("kontrol1");
@@ -56,7 +56,7 @@ public class WinnerControl {
 					if (area[row][col] == area[row + 1][col + 1] &&
 							area[row + 1][col + 1] == area[row + 2][col + 2] &&
 							area[row + 2][col + 2] == area[row + 3][col + 3]) {
-						System.out.println("we have a winner");
+						//System.out.println("we have a winner");
 						return true;
 					}
 				//System.out.println("kontrol1");
@@ -71,7 +71,7 @@ public class WinnerControl {
 					if (area[row][col] == area[row - 1][col + 1] &&
 							area[row - 1][col + 1] == area[row - 2][col + 2] &&
 							area[row - 2][col + 2] == area[row - 3][col + 3]) {
-						System.out.println("we have a winner");
+						//System.out.println("we have a winner");
 						return true;
 					}
 				//System.out.println("kontrol1");
